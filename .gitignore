@@ -1,0 +1,22 @@
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# created by virtualenv automatically
+local_settings.py
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+* sqlite3
+
+# databse migrations
+*/migrations/*.py
+!*/migrations/__init__.py
