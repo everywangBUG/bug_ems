@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
@@ -118,3 +117,60 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# logging configs
+LOGGING = {
+    "version": 1, # python team developement version is 1
+    "disable_existing_loggers": False, # disable other logger config, not disabled other logging config
+    # fomatters illustrate
+    "formatters": {
+        "verbose": { # 详细信息
+            # levelname错误等级 asctime错误发生时间 modeule错误模块文件地址 lineno第几行 messgae错误信息
+            "format": "{levelname} {asctime} {module} {process:d} {thread:d} {message}",
+            "style": "{",
+        },
+        "simple": { # 简单显示
+            "format": "{levelname} {message}",
+            "style": "{",
+        },
+    },
+    # 过滤方式
+    "filters": {
+        "require_debug_true": {
+            "()": "django.utils.log.RequireDebugTrue",
+        },
+    },
+    # 处理方式
+    "handlers": {
+        "console": {
+            # 日志等级
+            "level": "INFO",
+            # 是否调用日志过滤器
+            "filters": ["require_debug_true"],
+            # 通过SteamHandle实现的日志功能
+            "class": "logging.StreamHandler",
+            "formatter": "simple",
+        },
+        "file": {
+            "level": "INFO",
+            # 使用这个类写入文件
+            "class": "logging.handlers.RotatingFileHandler",
+            # 日志位置
+            "filename": os.path.join(os.path.dirname(BASE_DIR), "logs/luffy.log"),
+            # 日志文件的最大存储设置为300M
+            "maxBytes": 300 * 1024 * 1024,
+            # 日志文件的最大备份数量为10个
+            "backupCount": 10,
+            # 日志文件的格式
+            "formatter": 'verbose'
+        }
+    },
+    # 日志对象
+    "loggers": {
+        "django": {
+            # 日志文件输出到终端和文件中
+            "handlers": ["console", "file"],
+            "propagate": True, # 是否让日志信息继续冒泡给其他的日志处理系统
+        },
+    },
+}

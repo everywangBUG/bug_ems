@@ -1,0 +1,6 @@
+INFO 2023-10-28 21:23:38,459 basehttp 24412 12104 "GET / HTTP/1.1" 200 16348
+INFO 2023-10-28 21:23:38,475 basehttp 24412 19524 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2023-10-28 21:23:38,743 basehttp 24412 23688 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2023-10-28 21:23:38,743 basehttp 24412 23848 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2023-10-28 21:23:38,743 basehttp 24412 5776 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2023-10-28 21:24:45,227 basehttp 17072 12436 "GET / HTTP/1.1" 200 16348

@@ -50,3 +50,6 @@ luffy/
 ```
 1. 重置目录结构后运行项目报错 `The SECRET_KEY setting must not be empty.`
 2. 在settings目录下的__init__.py中加入 `SECRET_KEY = "41ccd_4530%#￥fkg43432" DEBUG = True`
+
+## 日志配置
+1. 在dev.py文件中配置日志文件
