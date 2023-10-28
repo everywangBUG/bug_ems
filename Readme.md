@@ -25,4 +25,28 @@ except ImportError:
     pass
 ```
 
+## vscode选择pyton解释器
+* `ctrl+shift+p`打开命令面板
+* `Python: Select Interpreter`选择解释器，输入虚拟环境目录
 
+
+## 项目目录结构
+```
+luffy/
+  ├── docs/          # 项目相关资料保存目录
+  ├── luffycity/     # 前端项目目录
+  ├── luffyapi/      # 后端项目目录
+       ├── logs/          # 项目运行时/开发时日志目录
+       ├── manage.py
+       ├── luffyapi/      # 项目主应用，开发时的代码保存
+       │    ├── apps/      # 开发者的代码保存目录，以模块[子应用]为目录保存
+       │    ├── libs/      # 第三方类库的保存目录[第三方组件、模块]
+       │    ├── settings/
+       │         ├── dev.py   # 项目开发时的本地配置
+       │         ├── prod.py  # 项目上线时的运行配置
+       │    ├── urls.py    # 总路由
+       │    ├── utils/     # 多个模块[子应用]的公共函数类库[自己开发的组件]
+       └── scripts/       # 保存项目运营时的脚本文件
+```
+1. 重置目录结构后运行项目报错 `The SECRET_KEY setting must not be empty.`
+2. 在settings目录下的__init__.py中加入 `SECRET_KEY = "41ccd_4530%#￥fkg43432" DEBUG = True`
