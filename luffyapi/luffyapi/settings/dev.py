@@ -24,7 +24,10 @@ SECRET_KEY = 'sl5-5(*#f857-pxg_da9$fpw4wt)0n+zo=4m3$-n#&pk0wxymo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'api.luffycity.cn',
+    'www.luffycity.cn'
+]
 
 
 # Application definition

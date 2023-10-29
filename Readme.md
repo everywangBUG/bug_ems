@@ -64,3 +64,7 @@ luffy/
 4. 刷新权限 `flush privileges;`
 5. `exit` 退出数据库，再重新连接数据库，输入用户名和密码 `mysql -uluffy_user -pluffy;`
 6. 项目主模块下__init__.py文件中配置数据库连接信息 `pymysql.install_as_MySQLdb()`
+
+### windows更改host
+1. 进入到`C:\Windows\System32\drivers\etc`
+2. 修改hosts文件
