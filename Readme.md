@@ -56,3 +56,11 @@ luffy/
 1. 在dev.py文件中配置日志文件
 
 ### 异常处理模块
+
+## 数据库创建和连接
+1. 创建数据库 `create database luffy character set utf8mb4;`
+2. 为当前的项目创建数据库用户，这个用户只能看到这个数据库，identified设置密码 `create user luffy_user identified by 'luffy';`
+3. 赋予所有的权限在任意主机下面('%')给luffy_user `grant all on luffy.* to 'luffy_user'@'%';`
+4. 刷新权限 `flush privileges;`
+5. `exit` 退出数据库，再重新连接数据库，输入用户名和密码 `mysql -uluffy_user -pluffy;`
+6. 项目主模块下__init__.py文件中配置数据库连接信息 `pymysql.install_as_MySQLdb()`

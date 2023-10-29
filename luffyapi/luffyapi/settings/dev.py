@@ -74,8 +74,12 @@ WSGI_APPLICATION = 'luffyapi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'luffy', # 填写数据库名字
+        'USER': 'luffy_user', # 填写连接用户名
+        'PASSWORD': 'luffy', # 填写连接密码
+        'HOST': 'localhost', # 如果没有联网，使用127.0.0.1
+        'PORT': 3306, # 端口号
     }
 }
 
