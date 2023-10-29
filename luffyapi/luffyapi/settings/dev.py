@@ -39,9 +39,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    # 跨域配置
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+
+    
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -49,7 +56,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
 ]
+
+# 跨域白名单
+CORS_ORIGIN_WHITELIST = (
+    'www.luffycity.cn:5173',
+)
+CORS_ALLOW_CREDENTIALS = False # 允许ajax跨域请求时携带cookie
 
 ROOT_URLCONF = 'luffyapi.urls'
 

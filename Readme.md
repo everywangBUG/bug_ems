@@ -68,3 +68,9 @@ luffy/
 ### windows更改host
 1. 进入到`C:\Windows\System32\drivers\etc`
 2. 修改hosts文件
+
+### 解决跨域
+1. 安装`pip install django-cors-headers`
+2. 在dev文件中INSTALLED_APPS下面加入 `'corsheaders',`
+3. 配置settings.py文件，在`MIDDLEWARE`中添加`'corsheaders.middleware.CorsMiddleware'`
+4. 配置`CORS_ORIGIN_ALLOW_ALL = True`
