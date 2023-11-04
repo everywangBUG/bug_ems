@@ -112,3 +112,14 @@ tips: 可以通过sys.path获取import识别的路径
 * 增加后数据迁移 `python manage.py makemigrations`
 * 增加后数据迁移并执行 `python manage.py migrate`
 
+### 创建admin模块的用户名和密码
+* from django.contrib import admin, 引入admin模块，加入urls中
+* 创建用户和密码
+    * python manage.py createsuperuser
+    * Username: admin
+    * Email address: admin@example.com
+    * Password: 123456
+    * Password (again): 123456
+* 启动服务器
+    * python manage.py runserver
+

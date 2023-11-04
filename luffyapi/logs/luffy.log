@@ -31,3 +31,58 @@ INFO 2023-10-29 23:45:46,412 basehttp 24920 16416 "GET /static/admin/fonts/Robot
 WARNING 2023-10-29 23:45:46,472 log 24920 22804 Not Found: /favicon.ico
 WARNING 2023-10-29 23:45:46,473 basehttp 24920 22804 "GET /favicon.ico HTTP/1.1" 404 1976
 INFO 2023-10-29 23:45:54,503 basehttp 24920 12112 "GET / HTTP/1.1" 200 16348
+ERROR 2023-11-04 21:44:06,110 basehttp 9812 21492 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+ERROR 2023-11-04 21:44:06,117 basehttp 9812 25088 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+WARNING 2023-11-04 21:44:06,145 log 9812 5232 Not Found: /
+WARNING 2023-11-04 21:44:06,146 basehttp 9812 5232 "GET / HTTP/1.1" 404 2208
+WARNING 2023-11-04 21:44:07,340 log 9812 19856 Not Found: /favicon.ico
+WARNING 2023-11-04 21:44:07,341 basehttp 9812 19856 "GET /favicon.ico HTTP/1.1" 404 2259
+INFO 2023-11-04 21:44:19,576 basehttp 9812 19040 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x00\x00\x15\x00\x13\x00\x00\x10api.luffycity.cn\x00\x17\x00\x00\x00')
+INFO 2023-11-04 21:44:19,576 basehttp 9812 6368 "GET /admin HTTP/1.1" 301 0
+ERROR 2023-11-04 21:44:19,577 basehttp 9812 19040 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-11-04 21:44:19,586 basehttp 9812 19776 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2023-11-04 21:44:19,588 basehttp 9812 17336 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2023-11-04 21:44:19,670 basehttp 9812 6372 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+INFO 2023-11-04 21:44:20,399 basehttp 9812 1248 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2023-11-04 21:44:20,400 basehttp 9812 11632 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2023-11-04 21:44:20,400 basehttp 9812 25020 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2023-11-04 21:44:20,411 basehttp 9812 24252 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2023-11-04 21:44:20,444 basehttp 9812 9728 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2023-11-04 21:44:20,444 basehttp 9812 24484 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2023-11-04 21:44:33,678 basehttp 9812 7504 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1984
+INFO 2023-11-04 21:44:33,761 basehttp 9812 19268 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2023-11-04 21:44:39,331 basehttp 9812 23260 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1984
+INFO 2023-11-04 21:45:50,782 basehttp 9812 25444 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1984
+INFO 2023-11-04 21:45:59,569 basehttp 9812 19732 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1984
+INFO 2023-11-04 21:46:07,248 basehttp 9812 10620 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1984
+INFO 2023-11-04 21:47:03,422 basehttp 9812 12596 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-11-04 21:47:03,434 basehttp 9812 8924 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+INFO 2023-11-04 21:47:11,740 basehttp 9812 24748 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1980
+INFO 2023-11-04 21:52:56,505 basehttp 17532 21244 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+INFO 2023-11-04 21:53:06,430 basehttp 17532 18692 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-11-04 21:53:06,477 basehttp 17532 19448 "GET /admin/ HTTP/1.1" 200 3042
+INFO 2023-11-04 21:53:07,140 basehttp 17532 16324 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2023-11-04 21:53:07,206 basehttp 17532 2596 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-11-04 21:53:07,206 basehttp 17532 19156 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-11-04 21:53:19,321 basehttp 17532 18332 "GET /banner HTTP/1.1" 301 0
+ERROR 2023-11-04 21:53:19,336 exceptions 17532 7408 [%s] %s % (view, exc)
+ERROR 2023-11-04 21:53:19,384 log 17532 7408 Insufficient Storage: /banner/
+ERROR 2023-11-04 21:53:19,384 basehttp 17532 7408 "GET /banner/ HTTP/1.1" 507 5312
+INFO 2023-11-04 21:53:19,418 basehttp 17532 2376 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2023-11-04 21:53:19,418 basehttp 17532 21252 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2023-11-04 21:53:19,418 basehttp 17532 25424 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2023-11-04 21:53:19,421 basehttp 17532 24340 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2023-11-04 21:53:19,433 basehttp 17532 23728 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2023-11-04 21:53:19,441 basehttp 17532 20780 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2023-11-04 21:53:19,444 basehttp 17532 24580 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2023-11-04 21:53:19,454 basehttp 17532 21588 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2023-11-04 21:53:19,462 basehttp 17532 23156 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2023-11-04 21:53:19,462 basehttp 17532 14128 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2023-11-04 21:53:19,479 basehttp 17532 21432 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+ERROR 2023-11-04 21:53:58,549 exceptions 17532 7576 [%s] %s % (view, exc)
+ERROR 2023-11-04 21:53:58,556 log 17532 7576 Insufficient Storage: /banner/
+ERROR 2023-11-04 21:53:58,557 basehttp 17532 7576 "GET /banner/ HTTP/1.1" 507 5312

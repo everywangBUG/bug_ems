@@ -16,7 +16,7 @@ class Banner(models.Model):
     class Meta:
         db_table = 'lufffy_banner'
         verbose_name = '轮播图' 
-        verbose_name_plural = verbose_name # 
+        verbose_name_plural = verbose_name
 
     # 自定义方法(自定义显示字段)
     def __str__(self) -> str:
