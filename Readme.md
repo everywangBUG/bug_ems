@@ -85,7 +85,7 @@ luffy/
 ### 在总路由中django项目中上传文件的url地址
 ### 在apps文件下创建子应用
 1. `python ../../manage.py startapp home`
-2. 在dev.py中配置子应用的注册 
+2. 在dev.py中配置子应用的注册
 ``` python
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -107,4 +107,8 @@ tips: 可以通过sys.path获取import识别的路径
     print(sys.path, '222')
 ```
 * 导入home报错时按提示vscode进行处理
+
+### 增加models轮播数据模型
+* 增加后数据迁移 `python manage.py makemigrations`
+* 增加后数据迁移并执行 `python manage.py migrate`
 
