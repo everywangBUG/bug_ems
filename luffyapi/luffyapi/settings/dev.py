@@ -46,7 +46,13 @@ INSTALLED_APPS = [
     
     'corsheaders',
     'rest_framework',
-    'home'
+    'home',
+    # xadmin主体模块
+    'xadmin',
+    # 渲染表格模块
+    'crispy_forms',
+    # 为模型通过版本控制，可以回滚数据
+    'reversion',
 ]
 
 MIDDLEWARE = [
@@ -128,9 +134,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 

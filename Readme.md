@@ -123,3 +123,21 @@ tips: 可以通过sys.path获取import识别的路径
 * 启动服务器
     * python manage.py runserver
 
+## 安装xadmin模块并配置
+1. `pip install https://codeload.github.com/sshwsfc/xadmin/zip/django2`
+2 在app中注册
+```python
+    INSTALLED_APPS = [
+    # xadmin主体模块
+    'xadmin',
+    # 渲染表格模块
+    'crispy_forms',
+    # 为模型通过版本控制，可以回滚数据
+    'reversion',
+]
+```
+1. 改时区和语言 `TIME_ZONE = 'Asia/Shanghai'` `LANGUAGE_CODE = 'zh-Hans'`
+2. 数据库迁移
+   * 增加后数据迁移 `python manage.py makemigrations`
+   * 增加后数据迁移并执行 `python manage.py migrate`
+
