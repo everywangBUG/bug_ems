@@ -68,3 +68,43 @@ luffy/
 ### windows更改host
 1. 进入到`C:\Windows\System32\drivers\etc`
 2. 修改hosts文件
+
+## 解决跨域
+1. 安装`pip install django-cors-headers`
+2. 在dev文件中INSTALLED_APPS下面加入 `'corsheaders',`
+3. 配置settings.py文件，在`MIDDLEWARE`中添加`'corsheaders.middleware.CorsMiddleware'`
+4. 配置`CORS_ORIGIN_ALLOW_ALL = True`
+
+## 轮播图的实现
+### 配置静态资源项
+1. 在dev.py中配置静态资源项 `STATIC_URL = '/static/'`
+2. 在dev.py中设置静态资源的访问路径 `STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]`
+3. 在dev.py新增uploads目录 `MEDIA_ROOT = os.path.join(BASE_DIR,'uploads')`
+4. 在dev.py中配置MEDIA_URL `MEDIA_URL = "/media/"`
+
+### 在总路由中django项目中上传文件的url地址
+### 在apps文件下创建子应用
+1. `python ../../manage.py startapp home`
+2. 在dev.py中配置子应用的注册 
+``` python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'home',
+]
+```
+
+tips: 可以通过sys.path获取import识别的路径
+
+### 把home加入到默认导包的路径中
+```python
+    import sys
+    sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
+    print(sys.path, '222')
+```
+* 导入home报错时按提示vscode进行处理
+

@@ -18,11 +18,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
+# 把apps目录下所有的子应用设置为可以直接打包，把apps目录设置维默认导包路径
+import sys
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'sl5-5(*#f857-pxg_da9$fpw4wt)0n+zo=4m3$-n#&pk0wxymo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True # 程序默认运行两遍
 
 ALLOWED_HOSTS = [
     'api.luffycity.cn',
@@ -39,9 +43,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    'corsheaders',
+    'rest_framework',
+    'home'
 ]
 
 MIDDLEWARE = [
+    # 跨域配置
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -49,7 +61,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
 ]
+
+# 跨域白名单
+CORS_ORIGIN_WHITELIST = (
+    'www.luffycity.cn:5173',
+)
+CORS_ALLOW_CREDENTIALS = False # 允许ajax跨域请求时携带cookie
 
 ROOT_URLCONF = 'luffyapi.urls'
 
@@ -124,6 +143,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
+
+MEDIA_ROOT = os.path.join(BASE_DIR,'uploads')
+
+# 访问上传文件的url地址前缀
+MEDIA_URL = "/media/"
 
 # logging configs
 LOGGING = {

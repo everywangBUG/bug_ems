@@ -18,6 +18,7 @@ def custom_exception_handler(exc, context):
     response = exception_handler(exc, context)
 
     if response is None:
+        view = context['view']
         """两种情况，第一种程序没有出错，第二种出错了django或restframework没有识别"""
         if isinstance(exc, DatabaseError):
             # 数据库异常
