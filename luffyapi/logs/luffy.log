@@ -3098,3 +3098,178 @@ INFO 2023-11-05 15:07:25,960 basehttp 20984 11052 "GET /static/xadmin/vendor/boo
 INFO 2023-11-05 15:07:25,970 basehttp 20984 2764 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
 INFO 2023-11-05 15:07:25,975 basehttp 20984 15792 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
 INFO 2023-11-05 15:07:25,975 basehttp 20984 11188 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2023-11-05 15:10:02,412 basehttp 20984 15792 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19804
+INFO 2023-11-05 15:10:02,440 basehttp 20984 15792 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:11:19,930 autoreload 20984 21796 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 15:11:21,780 autoreload 8644 9736 Watching for file changes with StatReloader
+INFO 2023-11-05 15:11:32,748 autoreload 8644 9736 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 15:11:34,370 autoreload 15776 13620 Watching for file changes with StatReloader
+INFO 2023-11-05 15:13:34,090 basehttp 15776 17316 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19804
+INFO 2023-11-05 15:13:34,113 basehttp 15776 17316 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:13:42,371 basehttp 15776 17316 "GET /xadmin/ HTTP/1.1" 200 14361
+INFO 2023-11-05 15:13:42,394 basehttp 15776 17316 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:13:48,627 basehttp 15776 17316 "GET /xadmin/home/banner/ HTTP/1.1" 200 24034
+INFO 2023-11-05 15:13:48,654 basehttp 15776 17316 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:13:49,730 basehttp 15776 17316 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 19804
+INFO 2023-11-05 15:13:49,751 basehttp 15776 17316 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:15:37,372 basehttp 15776 17316 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2023-11-05 15:15:37,435 basehttp 15776 17316 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20156
+INFO 2023-11-05 15:15:37,465 basehttp 15776 17316 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:16:38,050 basehttp 15776 17316 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2023-11-05 15:16:38,174 basehttp 15776 17316 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20153
+INFO 2023-11-05 15:16:38,199 basehttp 15776 17316 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:17:30,786 basehttp 15776 17316 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2023-11-05 15:17:30,862 basehttp 15776 17316 "GET /xadmin/home/banner/ HTTP/1.1" 200 29246
+INFO 2023-11-05 15:17:30,885 basehttp 15776 26208 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2023-11-05 15:17:30,910 basehttp 15776 17316 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:17:34,403 basehttp 15776 17316 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 20334
+INFO 2023-11-05 15:17:34,425 basehttp 15776 17316 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:17:34,524 basehttp 15776 17316 "GET /media/banner/windowdesktop.png HTTP/1.1" 200 2598881
+INFO 2023-11-05 15:17:38,243 basehttp 15776 17316 "GET /xadmin/home/banner/ HTTP/1.1" 200 28945
+INFO 2023-11-05 15:17:39,773 basehttp 15776 17316 "GET /xadmin/home/banner/2/update/ HTTP/1.1" 200 20368
+INFO 2023-11-05 15:17:39,795 basehttp 15776 17316 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:17:39,876 basehttp 15776 17316 "GET /media/banner/u15950724653644073269fm193fGIF.jpg HTTP/1.1" 200 19948
+INFO 2023-11-05 15:17:41,698 basehttp 15776 17316 "GET /xadmin/home/banner/ HTTP/1.1" 200 28945
+INFO 2023-11-05 15:18:16,459 basehttp 15776 17316 "GET /banner HTTP/1.1" 301 0
+ERROR 2023-11-05 15:18:16,622 log 15776 17316 Internal Server Error: /banner/
+Traceback (most recent call last):
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 1052, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 1124, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the BannerModelSerializer serializer.",)
+ERROR 2023-11-05 15:18:16,629 basehttp 15776 17316 "GET /banner/ HTTP/1.1" 500 155935
+INFO 2023-11-05 15:20:24,761 autoreload 15776 13620 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 15:20:26,544 autoreload 13208 15164 Watching for file changes with StatReloader
+INFO 2023-11-05 15:20:41,064 autoreload 13208 15164 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 15:20:42,690 autoreload 16968 18648 Watching for file changes with StatReloader
+ERROR 2023-11-05 15:21:07,559 log 16968 21576 Internal Server Error: /banner/
+Traceback (most recent call last):
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 1052, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "E:\py_project\py_virtual_env\s28\lib\site-packages\rest_framework\serializers.py", line 1124, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the BannerModelSerializer serializer.",)
+ERROR 2023-11-05 15:21:07,567 basehttp 16968 21576 "GET /banner/ HTTP/1.1" 500 156070
+INFO 2023-11-05 15:22:28,962 autoreload 16968 18648 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\serializers.py changed, reloading.
+INFO 2023-11-05 15:22:30,467 autoreload 15104 19756 Watching for file changes with StatReloader
+INFO 2023-11-05 15:22:54,371 autoreload 8608 7132 Watching for file changes with StatReloader
+INFO 2023-11-05 15:23:03,384 basehttp 8608 12552 "GET /xadmin/home/banner/ HTTP/1.1" 200 28945
+INFO 2023-11-05 15:23:03,407 basehttp 8608 12552 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:23:07,451 basehttp 8608 12552 "GET /banner/ HTTP/1.1" 200 6180
+INFO 2023-11-05 15:23:07,478 basehttp 8608 19444 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2023-11-05 15:23:07,480 basehttp 8608 23648 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2023-11-05 15:23:07,480 basehttp 8608 5164 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2023-11-05 15:23:07,481 basehttp 8608 12552 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2023-11-05 15:23:07,494 basehttp 8608 7480 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2023-11-05 15:23:07,499 basehttp 8608 19444 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2023-11-05 15:23:07,500 basehttp 8608 12552 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2023-11-05 15:23:07,508 basehttp 8608 23648 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2023-11-05 15:23:07,512 basehttp 8608 5164 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2023-11-05 15:23:07,522 basehttp 8608 15728 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2023-11-05 15:23:07,560 basehttp 8608 15728 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2023-11-05 15:27:43,449 autoreload 8608 7132 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\__init__.py changed, reloading.
+INFO 2023-11-05 15:27:45,170 autoreload 20984 10904 Watching for file changes with StatReloader
+INFO 2023-11-05 15:27:54,506 basehttp 20984 14100 "GET /xadmin/home/banner/ HTTP/1.1" 200 28951
+INFO 2023-11-05 15:27:54,539 basehttp 20984 14100 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:28:01,939 basehttp 20984 14100 "GET /xadmin/home/banner/ HTTP/1.1" 200 28951
+INFO 2023-11-05 15:28:01,963 basehttp 20984 14100 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-05 15:41:17,015 basehttp 20984 18348 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:41:57,179 basehttp 20984 18348 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:42:03,560 basehttp 20984 18348 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:49:49,820 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:50:23,767 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:51:29,952 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:52:52,925 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:52:58,688 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:53:42,678 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:54:00,202 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:55:14,435 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:55:48,700 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:56:01,437 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:56:22,538 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:58:50,497 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 15:59:29,370 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 16:01:11,204 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 16:01:47,573 basehttp 20984 4736 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 16:05:19,959 basehttp 20984 3728 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 16:05:19,985 basehttp 20984 18164 "GET /media/banner/u15950724653644073269fm193fGIF.jpg HTTP/1.1" 200 19948
+INFO 2023-11-05 16:05:20,003 basehttp 20984 20192 "GET /media/banner/R-C.jpg HTTP/1.1" 200 1542615
+INFO 2023-11-05 16:05:20,010 basehttp 20984 1572 "GET /media/banner/windowdesktop.png HTTP/1.1" 200 2598881
+INFO 2023-11-05 16:07:31,068 basehttp 20984 5140 "GET /media/banner/R-C.jpg HTTP/1.1" 200 1542615

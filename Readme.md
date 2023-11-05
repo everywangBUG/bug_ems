@@ -161,3 +161,4 @@ tips: 可以通过sys.path获取import识别的路径
    * 增加`from import_export.formats.base_formats import DEFAULT_FORMATS     from import_export.admin import ImportMixin, ImportExportMixinBase`
 2. xadmin add页面报错bootstrap3
    * `pip install crispy-bootstrap3`，在dev.py中INSTALLED_APPS中添加`crispy_bootstrap3`
+   * `pip install django-bootstrap3`，在dev.py中INSTALLED_APPS中添加`django_bootstrap3`

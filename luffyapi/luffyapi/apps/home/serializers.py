@@ -8,7 +8,7 @@ class BannerModelSerializer(serializers.ModelSerializer):
     """轮播图序列化器"""
     class Meta:
         model = Banner
-        field = ["img_url", "link"]
+        fields = ["img_url", "link"]
     
     # 验证方法
     
