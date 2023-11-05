@@ -69,13 +69,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
 ]
 
 # 跨域白名单
 CORS_ORIGIN_WHITELIST = (
     'www.luffycity.cn:5173',
+    'www.luffycity.cn:8000',
 )
+
 CORS_ALLOW_CREDENTIALS = False # 允许ajax跨域请求时携带cookie
 
 ROOT_URLCONF = 'luffyapi.urls'

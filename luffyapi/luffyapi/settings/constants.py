@@ -1,2 +1,6 @@
 # 首页展示轮播图数量
 BANNER_LENGTH = 10
+# 顶部导航数量
+HEADERNAV_LENGTH = 10
+# 底部导航数量
+FOOTERNAV_LENGTH = 10

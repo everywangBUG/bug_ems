@@ -1,15 +1,8 @@
 from django.db import models
-
-class BaseModel(models.Model):
-    """基础模型"""
-    is_show = models.BooleanField(default=False, verbose_name='是否显示')
-    orders = models.IntegerField(default=1, verbose_name='排序')
-    is_deleted = models.BooleanField(default=False, verbose_name='是否删除')
-    create_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
-    update_time = models.DateTimeField(auto_now=True, verbose_name='更新时间')
+from luffyapi.utils.models import BaseModel
 
 # Create your models here.
-class Banner(BaseModel, models.Model):
+class Banner(BaseModel):
     """轮播图模型"""
     # 模型字段
     title = models.CharField(max_length=500, verbose_name='轮播图标题')
@@ -28,7 +21,7 @@ class Banner(BaseModel, models.Model):
     def __str__(self) -> str:
         return self.title
 
-class Nav(BaseModel, models.Model):
+class Nav(BaseModel):
     """导航模型"""
     # 模型字段
     POSITION_CHOICES = (
