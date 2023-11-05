@@ -3273,3 +3273,36 @@ INFO 2023-11-05 16:05:19,985 basehttp 20984 18164 "GET /media/banner/u1595072465
 INFO 2023-11-05 16:05:20,003 basehttp 20984 20192 "GET /media/banner/R-C.jpg HTTP/1.1" 200 1542615
 INFO 2023-11-05 16:05:20,010 basehttp 20984 1572 "GET /media/banner/windowdesktop.png HTTP/1.1" 200 2598881
 INFO 2023-11-05 16:07:31,068 basehttp 20984 5140 "GET /media/banner/R-C.jpg HTTP/1.1" 200 1542615
+INFO 2023-11-05 16:16:48,094 basehttp 20984 13000 "GET /media/banner/R-C.jpg HTTP/1.1" 200 1542615
+INFO 2023-11-05 19:01:31,158 basehttp 20984 10060 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-05 19:01:31,176 basehttp 20984 22652 "GET /media/banner/R-C.jpg HTTP/1.1" 304 0
+INFO 2023-11-05 19:01:31,176 basehttp 20984 1640 "GET /media/banner/u15950724653644073269fm193fGIF.jpg HTTP/1.1" 304 0
+INFO 2023-11-05 19:01:31,178 basehttp 20984 2416 "GET /media/banner/windowdesktop.png HTTP/1.1" 304 0
+INFO 2023-11-05 19:14:55,878 autoreload 20984 10904 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:14:57,931 autoreload 21512 21784 Watching for file changes with StatReloader
+INFO 2023-11-05 19:15:07,801 autoreload 21512 21784 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:15:09,422 autoreload 11784 4848 Watching for file changes with StatReloader
+INFO 2023-11-05 19:16:48,991 autoreload 11784 4848 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:16:50,738 autoreload 17868 23364 Watching for file changes with StatReloader
+INFO 2023-11-05 19:16:54,819 autoreload 17868 23364 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:16:56,493 autoreload 20288 21056 Watching for file changes with StatReloader
+INFO 2023-11-05 19:17:12,027 autoreload 20288 21056 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:17:13,688 autoreload 4872 12300 Watching for file changes with StatReloader
+INFO 2023-11-05 19:17:32,689 autoreload 4872 12300 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:17:34,432 autoreload 27140 1952 Watching for file changes with StatReloader
+INFO 2023-11-05 19:17:54,640 autoreload 27140 1952 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:17:56,296 autoreload 23312 18944 Watching for file changes with StatReloader
+INFO 2023-11-05 19:18:23,556 autoreload 23312 18944 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:18:25,338 autoreload 26348 26692 Watching for file changes with StatReloader
+INFO 2023-11-05 19:19:07,474 autoreload 26348 26692 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:19:09,097 autoreload 10572 23596 Watching for file changes with StatReloader
+INFO 2023-11-05 19:19:52,300 autoreload 10572 23596 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:19:54,029 autoreload 19656 18832 Watching for file changes with StatReloader
+INFO 2023-11-05 19:20:15,323 autoreload 19656 18832 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:20:16,967 autoreload 12356 368 Watching for file changes with StatReloader
+INFO 2023-11-05 19:20:52,300 autoreload 12356 368 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:20:53,957 autoreload 14680 26304 Watching for file changes with StatReloader
+INFO 2023-11-05 19:21:07,219 autoreload 14680 26304 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:21:08,869 autoreload 4152 10020 Watching for file changes with StatReloader
+INFO 2023-11-05 19:21:10,637 autoreload 4152 10020 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-11-05 19:21:12,281 autoreload 600 8344 Watching for file changes with StatReloader
