@@ -10,7 +10,7 @@
 2. `source activate` 激活虚拟环境
 3. `deactivate` 退出虚拟环境
 4. 在激活的虚拟环境中安装包，会安装到虚拟环境中
-5. `pip install drango==2.1`安装django2.1，注意避免安装版本和python版本高低不匹配的问题
+5. `pip install django==2.1`安装django2.1，注意避免安装版本和python版本高低不匹配的问题
 
 ### 搭建项目环境(django + 虚拟环境)
 1. 搭建django环境 `django-admin startproject bug_ems`
@@ -141,3 +141,23 @@ tips: 可以通过sys.path获取import识别的路径
    * 增加后数据迁移 `python manage.py makemigrations`
    * 增加后数据迁移并执行 `python manage.py migrate`
 
+### 给xadmin增加路由(总路由中)
+1. 给xadmin配置用户名密码，同admin配置
+2. 增加路由(总路由中)
+```python
+    urlpatterns = [
+    # path('admin/', admin.site.urls),
+    # 通过xadmin登录
+    path(r'xadmin/', xadmin.site.urls),
+    # 找到media文件夹下的文件
+    re_path(r'media/(?P<path>.*)', serve, {"document_root": settings.MEDIA_ROOT }),
+    path('', include('home.urls'))
+]
+```
+
+
+## faults
+1. 注释`from import_export.admin import DEFAULT_FORMATS, SKIP_ADMIN_LOG, TMP_STORAGE_CLASS`
+   * 增加`from import_export.formats.base_formats import DEFAULT_FORMATS     from import_export.admin import ImportMixin, ImportExportMixinBase`
+2. xadmin add页面报错bootstrap3
+   * `pip install crispy-bootstrap3`，在dev.py中INSTALLED_APPS中添加`crispy_bootstrap3`

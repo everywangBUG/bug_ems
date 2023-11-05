@@ -53,6 +53,8 @@ INSTALLED_APPS = [
     'crispy_forms',
     # 为模型通过版本控制，可以回滚数据
     'reversion',
+    "bootstrap3",
+    'crispy_bootstrap3',
 ]
 
 MIDDLEWARE = [
@@ -81,7 +83,7 @@ ROOT_URLCONF = 'luffyapi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'home/templates/')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
