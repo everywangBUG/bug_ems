@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'home',
+    'user',
     # xadmin主体模块
     'xadmin',
     # 渲染表格模块

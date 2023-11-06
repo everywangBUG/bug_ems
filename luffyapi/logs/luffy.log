@@ -4238,3 +4238,37 @@ INFO 2023-11-06 22:36:45,080 basehttp 31920 16928 "GET /xadmin/jsi18n/ HTTP/1.1"
 INFO 2023-11-06 22:36:45,086 basehttp 31920 24700 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
 INFO 2023-11-06 22:36:45,093 basehttp 31920 10948 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
 INFO 2023-11-06 22:36:45,096 basehttp 31920 23116 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2023-11-06 23:18:11,569 basehttp 31920 27888 "GET /xadmin/home/banner/ HTTP/1.1" 200 29632
+INFO 2023-11-06 23:18:11,594 basehttp 31920 27888 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 23:18:15,177 basehttp 31920 32300 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 23:18:15,182 basehttp 31920 11304 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 23:18:15,182 basehttp 31920 13396 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 23:19:32,709 basehttp 31920 27888 "GET /xadmin/home/banner/2/update/ HTTP/1.1" 200 20670
+INFO 2023-11-06 23:19:32,749 basehttp 31920 27888 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2023-11-06 23:19:32,763 basehttp 31920 8 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 23:19:32,800 basehttp 31920 28204 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2023-11-06 23:19:32,930 basehttp 31920 28204 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2023-11-06 23:19:35,273 basehttp 31920 28204 "GET /xadmin/home/banner/ HTTP/1.1" 200 29632
+INFO 2023-11-06 23:19:36,616 basehttp 31920 28204 "GET /xadmin/home/banner/1/update/ HTTP/1.1" 200 20742
+INFO 2023-11-06 23:19:36,649 basehttp 31920 28204 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 23:19:38,463 basehttp 31920 28204 "GET /xadmin/home/banner/ HTTP/1.1" 200 29632
+INFO 2023-11-06 23:19:39,882 basehttp 31920 28204 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 20670
+INFO 2023-11-06 23:19:39,916 basehttp 31920 28204 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 23:19:41,961 basehttp 31920 28204 "GET /xadmin/home/banner/ HTTP/1.1" 200 29632
+INFO 2023-11-06 23:19:43,367 basehttp 31920 28204 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20160
+INFO 2023-11-06 23:19:43,394 basehttp 31920 28204 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 23:20:24,612 basehttp 31920 28204 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2023-11-06 23:20:24,693 basehttp 31920 28204 "GET /xadmin/home/banner/ HTTP/1.1" 200 30508
+INFO 2023-11-06 23:20:24,737 basehttp 31920 28204 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 23:20:26,694 basehttp 31920 28204 "GET /xadmin/home/banner/4/update/ HTTP/1.1" 200 20677
+INFO 2023-11-06 23:20:26,725 basehttp 31920 8 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 23:20:26,735 basehttp 31920 28204 "GET /media/banner/%E9%87%91%E5%85%8B%E6%96%AF.jpg HTTP/1.1" 200 1871540
+INFO 2023-11-06 23:20:29,794 basehttp 31920 28204 "POST /xadmin/home/banner/4/update/ HTTP/1.1" 302 0
+INFO 2023-11-06 23:20:29,930 basehttp 31920 28204 "GET /xadmin/home/banner/ HTTP/1.1" 200 30446
+INFO 2023-11-06 23:20:29,991 basehttp 31920 28204 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 23:20:33,709 basehttp 31920 11304 "GET /banner/ HTTP/1.1" 200 407
+INFO 2023-11-06 23:20:33,714 basehttp 31920 13396 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 23:20:33,714 basehttp 31920 32300 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 23:20:33,739 basehttp 31920 28204 "GET /media/banner/%E9%87%91%E5%85%8B%E6%96%AF.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 23:31:33,675 autoreload 31920 16472 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-11-06 23:31:36,002 autoreload 14328 19948 Watching for file changes with StatReloader
