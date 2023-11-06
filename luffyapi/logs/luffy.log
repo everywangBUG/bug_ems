@@ -4272,3 +4272,13 @@ INFO 2023-11-06 23:20:33,714 basehttp 31920 32300 "GET /navfooter/ HTTP/1.1" 200
 INFO 2023-11-06 23:20:33,739 basehttp 31920 28204 "GET /media/banner/%E9%87%91%E5%85%8B%E6%96%AF.jpg HTTP/1.1" 304 0
 INFO 2023-11-06 23:31:33,675 autoreload 31920 16472 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
 INFO 2023-11-06 23:31:36,002 autoreload 14328 19948 Watching for file changes with StatReloader
+INFO 2023-11-06 23:32:45,676 autoreload 14328 19948 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-11-06 23:32:48,238 autoreload 30908 11252 Watching for file changes with StatReloader
+INFO 2023-11-06 23:33:37,496 autoreload 30908 11252 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-11-06 23:33:38,803 autoreload 26220 22328 Watching for file changes with StatReloader
+INFO 2023-11-06 23:33:41,210 autoreload 26220 22328 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-11-06 23:33:42,642 autoreload 19120 16700 Watching for file changes with StatReloader
+INFO 2023-11-06 23:34:06,815 autoreload 19120 16700 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-11-06 23:34:08,004 autoreload 33776 18164 Watching for file changes with StatReloader
+INFO 2023-11-06 23:34:57,012 autoreload 33776 18164 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-11-06 23:34:58,695 autoreload 33692 10716 Watching for file changes with StatReloader
