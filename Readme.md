@@ -173,3 +173,17 @@ tips: 可以通过sys.path获取import识别的路径
 2. xadmin add页面报错bootstrap3
    * `pip install crispy-bootstrap3`，在dev.py中INSTALLED_APPS中添加`crispy_bootstrap3`
    * `pip install django-bootstrap3`，在dev.py中INSTALLED_APPS中添加`django_bootstrap3`
+3. django需要在第一次迁移数据的时候就把用户模型设置好，否则报错
+```
+django.db.migrations.exceptions.InconsistentMigrationHistory: Migration reversion.0001_squashed_0004_auto_20160611_1202 is applied before its dependency user.0001_initial on database 'default'.
+```
+   * 把现有的数据库导出备份，然后清除数据库中所有的数据表信息，在slqLyog中备份
+   * 在所有子应用中，只要涉及到用户的除了__init__.py文件外的所有的迁移文件，一律删除
+   * 把django.contrib.admin.migrations目录下除了__init__.py文件外的所有的迁移文件删除（django库中）
+   * 把django.contrib.auth.migrations目录下除了__init__.py文件外的所有的迁移文件删除（django库中）
+   * 把reversion.migrations目录下除了__init__.py文件外的所有的迁移文件删除（reversion库中）
+   * 把xadmin.migrations目录下除了__init__.py文件外的所有的迁移文件删除（xadmin库中）
+   * 重新迁移 `python manage.py makemigrations` `python manage.py migrate`
+   * 恢复第一步中的数据
+   * 以后如果要修改用户相关操作，不需要重复操作，直接数据迁移即可
+

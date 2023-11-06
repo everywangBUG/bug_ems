@@ -225,5 +225,5 @@ REST_FRAMEWORK = {
     "EXCEPTION_HANDLER": "luffyapi.utils.exceptions.custom_exception_handler"
 }
 
-# 注册用户自定义用户模型, users子应用模型：应用名.模型类名，识别到user中的models中的User
-AUTH_USER_MODEL = 'users.User'
+# 注册用户自定义用户模型, user子应用模型：应用名.模型类名，识别到user中的models中的User
+AUTH_USER_MODEL = 'user.User'

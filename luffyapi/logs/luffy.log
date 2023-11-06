@@ -4282,3 +4282,9 @@ INFO 2023-11-06 23:34:06,815 autoreload 19120 16700 E:\py_project\py_virtual_env
 INFO 2023-11-06 23:34:08,004 autoreload 33776 18164 Watching for file changes with StatReloader
 INFO 2023-11-06 23:34:57,012 autoreload 33776 18164 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
 INFO 2023-11-06 23:34:58,695 autoreload 33692 10716 Watching for file changes with StatReloader
+INFO 2023-11-06 23:39:04,516 autoreload 33692 10716 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-11-06 23:39:06,691 autoreload 27504 33420 Watching for file changes with StatReloader
+INFO 2023-11-06 23:43:07,816 autoreload 27504 33420 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\user\models.py changed, reloading.
+INFO 2023-11-06 23:43:10,119 autoreload 8752 17228 Watching for file changes with StatReloader
+INFO 2023-11-07 00:11:17,633 autoreload 8752 17228 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\apps\home\migrations\0001_initial.py changed, reloading.
+INFO 2023-11-07 00:11:19,774 autoreload 13532 8460 Watching for file changes with StatReloader
