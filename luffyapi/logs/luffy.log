@@ -3806,3 +3806,435 @@ INFO 2023-11-05 21:58:46,832 basehttp 1848 8060 "GET /navheader/ HTTP/1.1" 200 3
 INFO 2023-11-05 21:58:46,836 basehttp 1848 13824 "GET /banner/ HTTP/1.1" 200 325
 INFO 2023-11-05 22:04:46,000 basehttp 1848 23452 "GET /navheader/ HTTP/1.1" 200 338
 INFO 2023-11-05 22:04:46,000 basehttp 1848 23088 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-06 09:25:56,112 autoreload 20152 18096 Watching for file changes with StatReloader
+ERROR 2023-11-06 09:26:10,148 exception 20152 26256 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 09:26:10,304 log 20152 26256 Bad Request: /
+WARNING 2023-11-06 09:26:10,306 basehttp 20152 26256 "GET / HTTP/1.1" 400 76015
+ERROR 2023-11-06 09:26:11,680 exception 20152 7688 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 09:26:11,714 log 20152 7688 Bad Request: /favicon.ico
+WARNING 2023-11-06 09:26:11,716 basehttp 20152 7688 "GET /favicon.ico HTTP/1.1" 400 75942
+INFO 2023-11-06 09:26:40,105 basehttp 20152 23372 "GET /xadmin/ HTTP/1.1" 200 14764
+INFO 2023-11-06 09:26:40,128 basehttp 20152 23372 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,144 basehttp 20152 26764 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,145 basehttp 20152 27188 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,146 basehttp 20152 23372 "GET /static/xadmin/css/themes/bootstrap-theme.css HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,146 basehttp 20152 11352 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,148 basehttp 20152 14568 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,153 basehttp 20152 4364 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,156 basehttp 20152 26764 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,160 basehttp 20152 27188 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,166 basehttp 20152 11352 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,166 basehttp 20152 14568 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,168 basehttp 20152 4364 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,172 basehttp 20152 26764 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,181 basehttp 20152 23372 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:26:40,181 basehttp 20152 27188 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,182 basehttp 20152 11352 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,184 basehttp 20152 14568 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,185 basehttp 20152 4364 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,185 basehttp 20152 26764 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,188 basehttp 20152 27188 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:40,579 basehttp 20152 27188 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+WARNING 2023-11-06 09:26:40,992 log 20152 27188 Not Found: /favicon.ico
+WARNING 2023-11-06 09:26:40,993 basehttp 20152 27188 "GET /favicon.ico HTTP/1.1" 404 2574
+INFO 2023-11-06 09:26:51,991 basehttp 20152 27188 "GET /xadmin/home/nav/ HTTP/1.1" 200 33335
+INFO 2023-11-06 09:26:52,013 basehttp 20152 27188 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:52,013 basehttp 20152 14568 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:52,014 basehttp 20152 11352 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:52,018 basehttp 20152 4364 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:52,018 basehttp 20152 23372 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:52,024 basehttp 20152 26764 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:26:52,024 basehttp 20152 27188 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:26:52,025 basehttp 20152 14568 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:27:01,619 basehttp 20152 14568 "GET /xadmin/ HTTP/1.1" 200 14764
+INFO 2023-11-06 09:27:01,675 basehttp 20152 14568 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:27:08,332 basehttp 20152 14568 "GET /banner/ HTTP/1.1" 200 6180
+INFO 2023-11-06 09:27:47,131 basehttp 20152 14568 "GET /navheader/ HTTP/1.1" 200 6305
+INFO 2023-11-06 09:29:31,620 basehttp 20152 23640 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-06 09:29:31,621 basehttp 20152 3148 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 09:29:31,655 basehttp 20152 26764 "GET /media/banner/u15950724653644073269fm193fGIF.jpg HTTP/1.1" 200 19948
+INFO 2023-11-06 09:29:31,673 basehttp 20152 14568 "GET /media/banner/R-C.jpg HTTP/1.1" 200 1542615
+INFO 2023-11-06 09:29:31,682 basehttp 20152 27188 "GET /media/banner/windowdesktop.png HTTP/1.1" 200 2598881
+INFO 2023-11-06 09:29:42,916 basehttp 20152 23640 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-06 09:29:42,917 basehttp 20152 3148 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 09:33:59,477 basehttp 20152 16260 "GET /banner/ HTTP/1.1" 200 325
+INFO 2023-11-06 09:33:59,477 basehttp 20152 26772 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 09:47:01,253 basehttp 20152 21808 "GET /xadmin/home/banner/ HTTP/1.1" 200 29632
+INFO 2023-11-06 09:47:01,277 basehttp 20152 21808 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:47:04,948 basehttp 20152 21808 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 20690
+INFO 2023-11-06 09:47:04,971 basehttp 20152 21808 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2023-11-06 09:47:04,976 basehttp 20152 25944 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:47:05,054 basehttp 20152 25944 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:47:05,072 basehttp 20152 25944 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2023-11-06 09:47:28,738 basehttp 20152 25944 "POST /xadmin/home/banner/3/update/ HTTP/1.1" 302 0
+INFO 2023-11-06 09:47:28,804 basehttp 20152 25944 "GET /xadmin/home/banner/ HTTP/1.1" 200 29870
+INFO 2023-11-06 09:47:28,830 basehttp 20152 25944 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:47:30,420 basehttp 20152 25944 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 20670
+INFO 2023-11-06 09:47:30,450 basehttp 20152 25944 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:47:30,569 basehttp 20152 25944 "GET /media/banner/ali.jpg HTTP/1.1" 200 1074251
+INFO 2023-11-06 09:47:36,647 basehttp 20152 25944 "GET /xadmin/home/banner/ HTTP/1.1" 200 29632
+INFO 2023-11-06 09:47:37,984 basehttp 20152 25944 "GET /xadmin/home/banner/2/update/ HTTP/1.1" 200 20724
+INFO 2023-11-06 09:47:38,006 basehttp 20152 25944 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:47:44,996 basehttp 20152 25944 "POST /xadmin/home/banner/2/update/ HTTP/1.1" 302 0
+INFO 2023-11-06 09:47:45,108 basehttp 20152 25944 "GET /xadmin/home/banner/ HTTP/1.1" 200 29870
+INFO 2023-11-06 09:47:45,145 basehttp 20152 25944 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:47:46,716 basehttp 20152 25944 "GET /xadmin/home/banner/1/update/ HTTP/1.1" 200 20742
+INFO 2023-11-06 09:47:46,741 basehttp 20152 25944 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:47:54,184 basehttp 20152 25944 "POST /xadmin/home/banner/1/update/ HTTP/1.1" 302 0
+INFO 2023-11-06 09:47:54,293 basehttp 20152 25944 "GET /xadmin/home/banner/ HTTP/1.1" 200 29873
+INFO 2023-11-06 09:47:54,326 basehttp 20152 25944 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:48:00,298 basehttp 20152 22128 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 09:48:00,304 basehttp 20152 19832 "GET /banner/ HTTP/1.1" 200 299
+INFO 2023-11-06 09:48:00,365 basehttp 20152 2748 "GET /media/banner/ali.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 09:48:00,381 basehttp 20152 25944 "GET /media/banner/kavenfour.jpg HTTP/1.1" 200 427040
+INFO 2023-11-06 09:48:00,383 basehttp 20152 21808 "GET /media/banner/karselin.jpg HTTP/1.1" 200 619871
+INFO 2023-11-06 09:49:30,362 basehttp 20152 12096 "GET /banner/ HTTP/1.1" 200 299
+INFO 2023-11-06 09:49:30,362 basehttp 20152 22624 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 09:49:30,399 basehttp 20152 3184 "GET /media/banner/kavenfour.jpg HTTP/1.1" 200 427040
+INFO 2023-11-06 09:49:30,402 basehttp 20152 15676 "GET /media/banner/karselin.jpg HTTP/1.1" 200 619871
+INFO 2023-11-06 09:49:30,404 basehttp 20152 18076 "GET /media/banner/ali.jpg HTTP/1.1" 200 1074251
+INFO 2023-11-06 09:56:20,810 basehttp 20152 12088 "GET /xadmin/home/banner/1/update/ HTTP/1.1" 200 20754
+INFO 2023-11-06 09:56:20,832 basehttp 20152 12088 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:56:21,146 basehttp 20152 12088 "GET /media/banner/kavenfour.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 09:56:32,291 basehttp 20152 12088 "POST /xadmin/home/banner/1/update/ HTTP/1.1" 302 0
+INFO 2023-11-06 09:56:32,353 basehttp 20152 12088 "GET /xadmin/home/banner/ HTTP/1.1" 200 29873
+INFO 2023-11-06 09:56:32,379 basehttp 20152 12088 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:56:33,817 basehttp 20152 12088 "GET /xadmin/home/banner/2/update/ HTTP/1.1" 200 20680
+INFO 2023-11-06 09:56:33,850 basehttp 20152 12088 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:56:33,851 basehttp 20152 17864 "GET /media/banner/karselin.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 09:56:41,673 basehttp 20152 17864 "POST /xadmin/home/banner/2/update/ HTTP/1.1" 302 0
+INFO 2023-11-06 09:56:41,740 basehttp 20152 17864 "GET /xadmin/home/banner/ HTTP/1.1" 200 29870
+INFO 2023-11-06 09:56:41,768 basehttp 20152 17864 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:56:43,039 basehttp 20152 17864 "GET /xadmin/home/banner/2/update/ HTTP/1.1" 200 20670
+INFO 2023-11-06 09:56:43,077 basehttp 20152 17864 "GET /media/banner/222.jpg HTTP/1.1" 200 529964
+INFO 2023-11-06 09:56:44,745 basehttp 20152 17864 "GET /xadmin/home/banner/ HTTP/1.1" 200 29632
+INFO 2023-11-06 09:56:48,133 basehttp 20152 17864 "GET /xadmin/home/banner/1/update/ HTTP/1.1" 200 20742
+INFO 2023-11-06 09:56:48,174 basehttp 20152 17864 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:56:48,233 basehttp 20152 17864 "GET /media/banner/111.jpg HTTP/1.1" 200 405027
+INFO 2023-11-06 09:56:54,661 basehttp 20152 17864 "POST /xadmin/home/banner/1/update/ HTTP/1.1" 302 0
+INFO 2023-11-06 09:56:54,742 basehttp 20152 17864 "GET /xadmin/home/banner/ HTTP/1.1" 200 29873
+INFO 2023-11-06 09:56:54,782 basehttp 20152 17864 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 09:57:00,598 basehttp 20152 26444 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 09:57:00,598 basehttp 20152 9504 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 09:57:00,624 basehttp 20152 17864 "GET /media/banner/ali.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 09:57:00,637 basehttp 20152 12088 "GET /media/banner/222.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 09:57:00,650 basehttp 20152 17864 "GET /media/banner/444.jpg HTTP/1.1" 200 358797
+INFO 2023-11-06 09:58:23,334 basehttp 20152 26444 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 10:01:13,250 basehttp 20152 26444 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 10:51:50,096 basehttp 20152 18524 "GET /navheader/ HTTP/1.1" 200 6305
+INFO 2023-11-06 10:52:31,604 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 10:52:31,611 basehttp 20152 8648 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 10:52:31,683 basehttp 20152 18524 "GET /media/banner/444.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 10:52:31,684 basehttp 20152 18824 "GET /media/banner/222.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 10:52:31,686 basehttp 20152 26440 "GET /media/banner/ali.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 10:53:27,295 basehttp 20152 8648 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 10:53:27,312 basehttp 20152 12872 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 10:54:41,496 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 10:56:04,437 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 10:56:11,562 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 10:56:34,458 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 10:58:08,511 basehttp 20152 8648 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 10:58:08,512 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 10:58:08,540 basehttp 20152 13300 "GET /media/banner/444.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 10:58:08,540 basehttp 20152 4500 "GET /media/banner/222.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 10:59:16,948 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:00:19,108 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:02:01,072 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:03:32,404 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:03:49,994 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:04:07,938 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:04:17,441 basehttp 20152 12872 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:09:40,274 basehttp 20152 20028 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:10:02,152 basehttp 20152 20028 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:10:02,155 basehttp 20152 13148 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 11:10:02,193 basehttp 20152 13700 "GET /media/banner/444.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 11:10:02,195 basehttp 20152 22792 "GET /media/banner/222.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 11:10:02,195 basehttp 20152 18716 "GET /media/banner/ali.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 11:11:33,781 basehttp 20152 13148 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:16:36,059 basehttp 20152 13652 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:21:53,791 basehttp 20152 11932 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 11:24:43,668 basehttp 20152 11932 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 13:13:12,109 basehttp 20152 1820 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 13:13:12,109 basehttp 20152 28068 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 13:13:12,134 basehttp 20152 28208 "GET /media/banner/444.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 13:13:12,134 basehttp 20152 14848 "GET /media/banner/222.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 13:13:12,134 basehttp 20152 17120 "GET /media/banner/ali.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 13:25:52,889 basehttp 20152 16844 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 13:25:52,891 basehttp 20152 11492 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 14:24:06,193 basehttp 20152 14380 "GET /navheader/ HTTP/1.1" 200 338
+INFO 2023-11-06 14:24:06,193 basehttp 20152 9976 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 14:24:06,236 basehttp 20152 13576 "GET /media/banner/444.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 14:24:06,236 basehttp 20152 27676 "GET /media/banner/222.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 14:24:06,237 basehttp 20152 20284 "GET /media/banner/ali.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,643 basehttp 20152 20284 "GET /xadmin/home/nav/ HTTP/1.1" 200 33335
+INFO 2023-11-06 14:26:00,695 basehttp 20152 20284 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,696 basehttp 20152 13576 "GET /static/xadmin/css/themes/bootstrap-theme.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,697 basehttp 20152 27676 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,697 basehttp 20152 13448 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,700 basehttp 20152 8016 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,701 basehttp 20152 23360 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,703 basehttp 20152 20284 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,724 basehttp 20152 13576 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,725 basehttp 20152 23360 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,726 basehttp 20152 20284 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,727 basehttp 20152 13448 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,727 basehttp 20152 8016 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,739 basehttp 20152 13576 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,741 basehttp 20152 27676 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:26:00,742 basehttp 20152 23360 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,744 basehttp 20152 20284 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,745 basehttp 20152 13448 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,750 basehttp 20152 8016 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,756 basehttp 20152 13576 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,756 basehttp 20152 27676 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,757 basehttp 20152 23360 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,759 basehttp 20152 20284 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,760 basehttp 20152 13448 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:00,761 basehttp 20152 8016 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:01,157 basehttp 20152 8016 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:06,293 basehttp 20152 8016 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19112
+INFO 2023-11-06 14:26:06,319 basehttp 20152 13448 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:06,319 basehttp 20152 27676 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:06,319 basehttp 20152 20284 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:06,319 basehttp 20152 8016 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:06,320 basehttp 20152 13576 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:06,329 basehttp 20152 23360 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:26:06,329 basehttp 20152 13448 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:06,330 basehttp 20152 27676 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:26:06,331 basehttp 20152 20284 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2023-11-06 14:27:15,633 basehttp 20152 23360 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-11-06 14:27:15,700 basehttp 20152 23360 "GET /xadmin/home/nav/ HTTP/1.1" 200 34477
+INFO 2023-11-06 14:27:15,734 basehttp 20152 23360 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:27:22,534 basehttp 20152 9976 "GET /navheader/ HTTP/1.1" 200 424
+INFO 2023-11-06 14:27:22,534 basehttp 20152 14380 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 14:31:53,980 basehttp 20152 9976 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 14:31:53,981 basehttp 20152 14380 "GET /navheader/ HTTP/1.1" 200 424
+INFO 2023-11-06 14:33:25,504 basehttp 20152 14380 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 14:33:25,504 basehttp 20152 9976 "GET /navheader/ HTTP/1.1" 200 424
+INFO 2023-11-06 14:33:36,014 basehttp 20152 1328 "GET /xadmin/home/nav/6/update/ HTTP/1.1" 200 19470
+INFO 2023-11-06 14:33:36,037 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:33:46,238 basehttp 20152 1328 "POST /xadmin/home/nav/6/update/ HTTP/1.1" 302 0
+INFO 2023-11-06 14:33:46,302 basehttp 20152 1328 "GET /xadmin/home/nav/ HTTP/1.1" 200 34391
+INFO 2023-11-06 14:33:46,336 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:33:49,622 basehttp 20152 14380 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 14:33:49,645 basehttp 20152 9976 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 14:33:52,651 basehttp 20152 9976 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 14:33:52,651 basehttp 20152 14380 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 14:33:56,421 basehttp 20152 9976 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 14:33:56,422 basehttp 20152 14380 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 14:35:00,261 basehttp 20152 1328 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19112
+INFO 2023-11-06 14:35:00,308 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:38:59,576 basehttp 20152 1328 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-11-06 14:38:59,665 basehttp 20152 1328 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19445
+INFO 2023-11-06 14:38:59,687 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:39:33,268 basehttp 20152 1328 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-11-06 14:39:33,333 basehttp 20152 1328 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19445
+INFO 2023-11-06 14:39:33,359 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:40:11,645 basehttp 20152 1328 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-11-06 14:40:11,727 basehttp 20152 1328 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19445
+INFO 2023-11-06 14:40:11,750 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:41:01,070 basehttp 20152 1328 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-11-06 14:41:01,163 basehttp 20152 1328 "GET /xadmin/home/nav/add/ HTTP/1.1" 200 19447
+INFO 2023-11-06 14:41:01,186 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:41:49,980 basehttp 20152 1328 "POST /xadmin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-11-06 14:41:50,074 basehttp 20152 1328 "GET /xadmin/home/nav/ HTTP/1.1" 200 38582
+INFO 2023-11-06 14:41:50,100 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:41:56,243 basehttp 20152 1328 "GET /xadmin/home/nav/7/update/ HTTP/1.1" 200 19443
+INFO 2023-11-06 14:41:56,283 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:41:58,504 basehttp 20152 1328 "GET /xadmin/home/nav/ HTTP/1.1" 200 38289
+INFO 2023-11-06 14:42:12,158 basehttp 20152 1328 "GET /xadmin/home/nav/?_cols=link.is_show.is_site.position HTTP/1.1" 200 38152
+INFO 2023-11-06 14:42:12,182 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:42:17,545 basehttp 20152 1328 "GET /xadmin/home/nav/?_cols=link.is_show.is_site HTTP/1.1" 200 36272
+INFO 2023-11-06 14:42:17,570 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:42:20,863 basehttp 20152 1328 "GET /xadmin/home/nav/?_cols=link.is_show.is_site.position HTTP/1.1" 200 38152
+INFO 2023-11-06 14:42:20,885 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 14:42:38,135 basehttp 20152 1328 "GET /xadmin/home/nav/7/update/ HTTP/1.1" 200 19443
+INFO 2023-11-06 14:42:38,174 basehttp 20152 1328 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 17:03:22,317 basehttp 20152 24668 "POST /xadmin/home/nav/7/update/ HTTP/1.1" 302 0
+INFO 2023-11-06 17:03:22,550 basehttp 20152 24668 "GET /xadmin/home/nav/ HTTP/1.1" 200 38520
+INFO 2023-11-06 17:03:22,602 basehttp 20152 24668 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2023-11-06 17:08:25,043 exception 20152 28020 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 17:08:25,155 log 20152 28020 Bad Request: /
+WARNING 2023-11-06 17:08:25,156 basehttp 20152 28020 "GET / HTTP/1.1" 400 76448
+ERROR 2023-11-06 17:08:26,638 exception 20152 4892 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 17:08:26,672 log 20152 4892 Bad Request: /favicon.ico
+WARNING 2023-11-06 17:08:26,674 basehttp 20152 4892 "GET /favicon.ico HTTP/1.1" 400 76375
+INFO 2023-11-06 17:36:39,140 basehttp 20152 14936 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:36:39,147 basehttp 20152 23640 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:36:39,193 basehttp 20152 19700 "GET /media/banner/444.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 17:36:39,193 basehttp 20152 30588 "GET /media/banner/222.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 17:36:39,194 basehttp 20152 28104 "GET /media/banner/ali.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 17:39:38,481 basehttp 20152 4752 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:40:41,036 basehttp 20152 31836 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:40:51,053 basehttp 20152 32340 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:40:51,053 basehttp 20152 28996 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:40:51,059 basehttp 20152 15928 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:43:04,457 basehttp 20152 28520 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:43:04,460 basehttp 20152 4080 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:43:04,460 basehttp 20152 27652 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:48:23,775 basehttp 20152 30976 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:48:23,775 basehttp 20152 6896 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:48:23,776 basehttp 20152 15016 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:48:49,251 basehttp 20152 15016 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:48:49,251 basehttp 20152 6896 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:48:49,259 basehttp 20152 30976 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:50:20,038 basehttp 20152 6896 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:50:20,039 basehttp 20152 15016 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:50:20,039 basehttp 20152 30976 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:51:51,774 basehttp 20152 30976 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:51:51,774 basehttp 20152 6896 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:51:51,792 basehttp 20152 15016 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:52:47,701 basehttp 20152 15016 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:52:47,703 basehttp 20152 6896 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:52:47,703 basehttp 20152 30976 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:53:28,645 basehttp 20152 15016 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:53:28,660 basehttp 20152 6896 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:53:28,660 basehttp 20152 30976 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:55:26,007 basehttp 20152 6896 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:55:26,007 basehttp 20152 15016 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:55:26,027 basehttp 20152 30976 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:55:37,688 basehttp 20152 30976 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 17:55:37,689 basehttp 20152 15016 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:55:37,693 basehttp 20152 6896 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:56:28,221 basehttp 20152 30976 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 17:56:28,223 basehttp 20152 6896 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 17:56:28,224 basehttp 20152 15016 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 22:25:04,140 autoreload 33428 20136 Watching for file changes with StatReloader
+INFO 2023-11-06 22:25:15,984 basehttp 33428 4844 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 22:25:15,984 basehttp 33428 28572 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 22:25:15,986 basehttp 33428 23316 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 22:25:23,728 basehttp 33428 23316 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 22:25:23,734 basehttp 33428 28572 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 22:25:23,739 basehttp 33428 4844 "GET /navfooter/ HTTP/1.1" 200 296
+WARNING 2023-11-06 22:25:44,870 log 33428 28328 Not Found: /
+WARNING 2023-11-06 22:25:44,870 basehttp 33428 28328 "GET / HTTP/1.1" 404 2523
+WARNING 2023-11-06 22:25:46,257 log 33428 28328 Not Found: /favicon.ico
+WARNING 2023-11-06 22:25:46,257 basehttp 33428 28328 "GET /favicon.ico HTTP/1.1" 404 2574
+INFO 2023-11-06 22:25:56,104 basehttp 33428 16964 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 22:25:56,104 basehttp 33428 28768 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 22:25:56,112 basehttp 33428 30624 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 22:26:05,242 basehttp 33428 28768 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 22:26:05,242 basehttp 33428 30624 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 22:26:05,242 basehttp 33428 16964 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 22:26:59,597 basehttp 33428 30952 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 22:26:59,600 basehttp 33428 31768 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 22:26:59,600 basehttp 33428 24908 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 22:27:06,947 basehttp 33428 24908 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 22:27:06,947 basehttp 33428 30952 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 22:27:06,963 basehttp 33428 31768 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 22:27:07,099 basehttp 33428 6724 "GET /media/banner/444.jpg HTTP/1.1" 200 358797
+INFO 2023-11-06 22:27:07,099 basehttp 33428 19892 "GET /media/banner/222.jpg HTTP/1.1" 200 529964
+INFO 2023-11-06 22:27:07,105 basehttp 33428 11148 "GET /media/banner/ali.jpg HTTP/1.1" 200 1074251
+INFO 2023-11-06 22:27:18,105 basehttp 33428 31768 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 22:27:18,105 basehttp 33428 30952 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 22:27:18,120 basehttp 33428 24908 "GET /navfooter/ HTTP/1.1" 200 296
+WARNING 2023-11-06 22:27:35,115 log 33428 11148 Not Found: /
+WARNING 2023-11-06 22:27:35,118 basehttp 33428 11148 "GET / HTTP/1.1" 404 2523
+WARNING 2023-11-06 22:27:58,160 log 33428 11148 Not Found: /
+WARNING 2023-11-06 22:27:58,162 basehttp 33428 11148 "GET / HTTP/1.1" 404 2523
+ERROR 2023-11-06 22:29:52,312 exception 33428 9140 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:29:55,505 log 33428 9140 Bad Request: /
+WARNING 2023-11-06 22:29:55,505 basehttp 33428 9140 "GET / HTTP/1.1" 400 76441
+ERROR 2023-11-06 22:29:56,853 exception 33428 13768 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:29:56,887 log 33428 13768 Bad Request: /favicon.ico
+WARNING 2023-11-06 22:29:56,891 basehttp 33428 13768 "GET /favicon.ico HTTP/1.1" 400 76368
+WARNING 2023-11-06 22:31:08,336 log 33428 11148 Not Found: /
+WARNING 2023-11-06 22:31:08,338 basehttp 33428 11148 "GET / HTTP/1.1" 404 2523
+INFO 2023-11-06 22:31:27,748 autoreload 33428 20136 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-11-06 22:31:30,204 autoreload 29816 31708 Watching for file changes with StatReloader
+ERROR 2023-11-06 22:31:31,833 exception 29816 2380 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:31:32,011 log 29816 2380 Bad Request: /
+WARNING 2023-11-06 22:31:32,011 basehttp 29816 2380 "GET / HTTP/1.1" 400 76604
+ERROR 2023-11-06 22:31:32,446 exception 29816 14248 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:31:32,474 log 29816 14248 Bad Request: /favicon.ico
+WARNING 2023-11-06 22:31:32,474 basehttp 29816 14248 "GET /favicon.ico HTTP/1.1" 400 76396
+ERROR 2023-11-06 22:31:36,248 exception 29816 10052 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:31:36,281 log 29816 10052 Bad Request: /
+WARNING 2023-11-06 22:31:36,284 basehttp 29816 10052 "GET / HTTP/1.1" 400 76604
+ERROR 2023-11-06 22:31:36,738 exception 29816 16648 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:31:36,779 log 29816 16648 Bad Request: /favicon.ico
+WARNING 2023-11-06 22:31:36,779 basehttp 29816 16648 "GET /favicon.ico HTTP/1.1" 400 76396
+INFO 2023-11-06 22:31:43,505 autoreload 10168 4120 Watching for file changes with StatReloader
+ERROR 2023-11-06 22:31:45,795 exception 10168 14484 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:31:45,897 log 10168 14484 Bad Request: /
+WARNING 2023-11-06 22:31:45,899 basehttp 10168 14484 "GET / HTTP/1.1" 400 76604
+ERROR 2023-11-06 22:31:46,350 exception 10168 19024 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:31:46,387 log 10168 19024 Bad Request: /favicon.ico
+WARNING 2023-11-06 22:31:46,388 basehttp 10168 19024 "GET /favicon.ico HTTP/1.1" 400 76396
+ERROR 2023-11-06 22:31:49,984 exception 10168 9316 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:31:50,013 log 10168 9316 Bad Request: /
+WARNING 2023-11-06 22:31:50,015 basehttp 10168 9316 "GET / HTTP/1.1" 400 76604
+ERROR 2023-11-06 22:31:50,465 exception 10168 8764 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2023-11-06 22:31:50,499 log 10168 8764 Bad Request: /favicon.ico
+WARNING 2023-11-06 22:31:50,500 basehttp 10168 8764 "GET /favicon.ico HTTP/1.1" 400 76396
+INFO 2023-11-06 22:31:58,815 autoreload 10168 4120 E:\py_project\py_virtual_env\s28\Scripts\luffy_city\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-11-06 22:32:00,896 autoreload 31920 16472 Watching for file changes with StatReloader
+WARNING 2023-11-06 22:33:17,938 log 31920 13068 Not Found: /
+WARNING 2023-11-06 22:33:17,938 basehttp 31920 13068 "GET / HTTP/1.1" 404 2523
+INFO 2023-11-06 22:34:54,204 basehttp 31920 17620 "GET /navheader/ HTTP/1.1" 200 398
+INFO 2023-11-06 22:34:54,204 basehttp 31920 18292 "GET /banner/ HTTP/1.1" 200 288
+INFO 2023-11-06 22:34:54,204 basehttp 31920 23240 "GET /navfooter/ HTTP/1.1" 200 296
+INFO 2023-11-06 22:34:54,287 basehttp 31920 33472 "GET /media/banner/444.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 22:34:54,287 basehttp 31920 27864 "GET /media/banner/222.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 22:34:54,287 basehttp 31920 31124 "GET /media/banner/ali.jpg HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:35,977 basehttp 31920 31124 "GET /xadmin/home/nav/?_cols=link.is_show.is_site.position HTTP/1.1" 200 38152
+INFO 2023-11-06 22:35:36,067 basehttp 31920 27864 "GET /static/xadmin/css/themes/bootstrap-theme.css HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,067 basehttp 31920 33472 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,067 basehttp 31920 31124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,083 basehttp 31920 15880 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,083 basehttp 31920 31124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,087 basehttp 31920 27864 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,092 basehttp 31920 24472 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,098 basehttp 31920 27864 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,100 basehttp 31920 31124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,108 basehttp 31920 27864 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,108 basehttp 31920 31124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,108 basehttp 31920 15880 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,116 basehttp 31920 33472 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 22:35:36,116 basehttp 31920 24472 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,116 basehttp 31920 27864 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,116 basehttp 31920 4956 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,127 basehttp 31920 15880 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,165 basehttp 31920 24472 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,165 basehttp 31920 4956 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,165 basehttp 31920 31124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,165 basehttp 31920 27864 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,165 basehttp 31920 15880 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,335 basehttp 31920 24472 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,335 basehttp 31920 4956 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2023-11-06 22:35:36,676 basehttp 31920 4956 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+WARNING 2023-11-06 22:35:37,330 log 31920 4956 Not Found: /favicon.ico
+WARNING 2023-11-06 22:35:37,330 basehttp 31920 4956 "GET /favicon.ico HTTP/1.1" 404 2574
+WARNING 2023-11-06 22:36:24,257 log 31920 10948 Not Found: /xadmin/home/
+WARNING 2023-11-06 22:36:24,259 basehttp 31920 10948 "GET /xadmin/home/ HTTP/1.1" 404 6914
+INFO 2023-11-06 22:36:32,285 basehttp 31920 10948 "GET /xadmin/home/nav/?_cols=link.is_show.is_site.position HTTP/1.1" 200 38152
+INFO 2023-11-06 22:36:32,315 basehttp 31920 23116 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2023-11-06 22:36:32,315 basehttp 31920 10948 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2023-11-06 22:36:32,323 basehttp 31920 29408 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2023-11-06 22:36:32,327 basehttp 31920 24700 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2023-11-06 22:36:32,327 basehttp 31920 16928 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2023-11-06 22:36:32,328 basehttp 31920 11364 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2023-11-06 22:36:32,340 basehttp 31920 23116 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2023-11-06 22:36:32,348 basehttp 31920 24700 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 22:36:32,363 basehttp 31920 11364 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2023-11-06 22:36:32,367 basehttp 31920 16928 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2023-11-06 22:36:32,367 basehttp 31920 29408 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2023-11-06 22:36:32,383 basehttp 31920 23116 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2023-11-06 22:36:32,392 basehttp 31920 24700 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2023-11-06 22:36:32,393 basehttp 31920 11364 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2023-11-06 22:36:32,404 basehttp 31920 16928 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2023-11-06 22:36:32,409 basehttp 31920 10948 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2023-11-06 22:36:32,412 basehttp 31920 23116 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2023-11-06 22:36:32,421 basehttp 31920 24700 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2023-11-06 22:36:32,426 basehttp 31920 11364 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2023-11-06 22:36:32,426 basehttp 31920 29408 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2023-11-06 22:36:32,431 basehttp 31920 16928 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2023-11-06 22:36:32,431 basehttp 31920 10948 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2023-11-06 22:36:32,440 basehttp 31920 23116 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2023-11-06 22:36:32,440 basehttp 31920 24700 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2023-11-06 22:36:32,498 basehttp 31920 24700 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2023-11-06 22:36:45,037 basehttp 31920 24700 "GET /xadmin/ HTTP/1.1" 200 14764
+INFO 2023-11-06 22:36:45,080 basehttp 31920 16928 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2023-11-06 22:36:45,086 basehttp 31920 24700 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2023-11-06 22:36:45,093 basehttp 31920 10948 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2023-11-06 22:36:45,096 basehttp 31920 23116 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208

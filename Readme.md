@@ -1,3 +1,9 @@
+# 前端地址
+`http://www.luffycity.cn:5173/#/home`
+
+# 后台地址
+`http://api.luffycity.cn:8000/xadmin/`
+
 ## 创建虚拟环境
 ### 虚拟环境包安装
 1. `pip install virtualenv`

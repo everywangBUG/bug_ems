@@ -31,8 +31,8 @@ DEBUG = True # 程序默认运行两遍
 ALLOWED_HOSTS = [
     'api.luffycity.cn',
     'www.luffycity.cn'
+    '127.0.0.1:8000'
 ]
-
 
 # Application definition
 
